@@ -1,0 +1,21 @@
+# Reading C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ** Error: (vish-7) Failed to open ini file "modelsim.ini" in read mode.
+# No such file or directory. (errno = ENOENT)
+# do PARTEA_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (14) Failed to open "modelsim.ini" specified by the MODELSIM environment variable.
+# 
+# ** Error: (vdel-7) Failed to open ini file "modelsim.ini" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./PARTEA_run_msim_rtl_vhdl.do line 4
+# C:/Program Files (x86)/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
